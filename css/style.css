@@ -139,6 +139,7 @@ body::before {
 
 .section {
     position: relative;
+
     padding: 110px 0;
 
     opacity: 0;
@@ -1175,6 +1176,42 @@ body::before {
     font-size: 1.15rem;
 }
 
+
+/* =========================================================
+   ORGANIZATION LINKS
+   ========================================================= */
+
+.organization-link {
+    color: var(--text-dark);
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.organization-link:hover {
+    color: var(--accent-dark);
+}
+
+.organization-link::after {
+    content: " ↗";
+
+    color: var(--accent);
+
+    font-size: 0.8em;
+
+    opacity: 0;
+
+    transition: opacity 0.25s ease;
+}
+
+.organization-link:hover::after {
+    opacity: 1;
+}
+
+
 .timeline-role {
     margin-top: 3px;
 
@@ -1224,6 +1261,8 @@ body::before {
 
     padding: 35px;
 
+    margin-bottom: 20px;
+
     background: white;
 
     border: 1px solid var(--border);
@@ -1233,6 +1272,10 @@ body::before {
     box-shadow: var(--shadow-sm);
 
     transition: var(--transition);
+}
+
+.education-card:last-child {
+    margin-bottom: 0;
 }
 
 .education-card:hover {
@@ -1281,6 +1324,42 @@ body::before {
 
     font-size: 1.4rem;
 }
+
+
+/* =========================================================
+   EDUCATION UNIVERSITY LINKS
+   ========================================================= */
+
+.education-link {
+    color: var(--text-dark);
+
+    text-decoration: none;
+
+    transition:
+        color 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.education-link:hover {
+    color: var(--accent-dark);
+}
+
+.education-link::after {
+    content: " ↗";
+
+    color: var(--accent);
+
+    font-size: 0.7em;
+
+    opacity: 0;
+
+    transition: opacity 0.25s ease;
+}
+
+.education-link:hover::after {
+    opacity: 1;
+}
+
 
 .education-info h4 {
     margin-top: 3px;
@@ -1804,6 +1883,7 @@ body::before {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 
@@ -1878,6 +1958,7 @@ body::before {
 
         padding: 25px 0;
     }
+
 }
 
 
@@ -2095,6 +2176,10 @@ body::before {
         justify-content: center;
     }
 
+    .education-info h3 {
+        font-size: 1.2rem;
+    }
+
 
     /* =====================================================
        PROJECTS
@@ -2154,6 +2239,7 @@ body::before {
     .footer-brand {
         justify-content: center;
     }
+
 }
 
 
@@ -2178,6 +2264,7 @@ body::before {
     .floating-card {
         display: none;
     }
+
 }
 
 
@@ -2200,4 +2287,5 @@ body::before {
 
         transition-duration: 0.01ms !important;
     }
+
 }
