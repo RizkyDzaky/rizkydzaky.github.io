@@ -1,6 +1,7 @@
 /* =========================================================
    RIZKY DZAKY — PORTFOLIO
    FRESH MINT / AQUA THEME
+   GITHUB PAGES VERSION
    ========================================================= */
 
 
@@ -30,8 +31,8 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 img {
@@ -542,7 +543,7 @@ body::before {
 
 
 /* =========================================================
-   HERO SOCIAL LINKS
+   SOCIAL LINKS
    ========================================================= */
 
 .social-links {
@@ -794,11 +795,6 @@ body::before {
     align-items: center;
 }
 
-
-/* =========================================================
-   TERMINAL
-   ========================================================= */
-
 .terminal-card {
     overflow: hidden;
 
@@ -872,11 +868,6 @@ body::before {
 
     font-weight: 700;
 }
-
-
-/* =========================================================
-   ABOUT CONTENT
-   ========================================================= */
 
 .about-text {
     margin-bottom: 20px;
@@ -1211,7 +1202,6 @@ body::before {
     opacity: 1;
 }
 
-
 .timeline-role {
     margin-top: 3px;
 
@@ -1327,7 +1317,7 @@ body::before {
 
 
 /* =========================================================
-   EDUCATION UNIVERSITY LINKS
+   EDUCATION LINKS
    ========================================================= */
 
 .education-link {
@@ -1359,7 +1349,6 @@ body::before {
 .education-link:hover::after {
     opacity: 1;
 }
-
 
 .education-info h4 {
     margin-top: 3px;
@@ -1703,7 +1692,7 @@ body::before {
 
 
 /* =========================================================
-   CONTACT SOCIAL ICONS
+   CONTACT SOCIAL
    ========================================================= */
 
 .contact-social {
@@ -1883,7 +1872,6 @@ body::before {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 
@@ -1958,7 +1946,6 @@ body::before {
 
         padding: 25px 0;
     }
-
 }
 
 
@@ -1996,9 +1983,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       HEADER
-       ===================================================== */
+    /* HEADER */
 
     .brand-logo {
         width: 39px;
@@ -2025,9 +2010,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       HERO
-       ===================================================== */
+    /* HERO */
 
     .hero {
         padding-top: 65px;
@@ -2088,9 +2071,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       ABOUT
-       ===================================================== */
+    /* ABOUT */
 
     .terminal-content {
         min-height: auto;
@@ -2105,9 +2086,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       SKILLS
-       ===================================================== */
+    /* SKILLS */
 
     .skills-grid {
         grid-template-columns: 1fr;
@@ -2118,9 +2097,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       TIMELINE
-       ===================================================== */
+    /* TIMELINE */
 
     .timeline::before {
         left: 19px;
@@ -2156,9 +2133,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       EDUCATION
-       ===================================================== */
+    /* EDUCATION */
 
     .education-card {
         grid-template-columns: 1fr;
@@ -2181,9 +2156,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       PROJECTS
-       ===================================================== */
+    /* PROJECTS */
 
     .projects-grid {
         grid-template-columns: 1fr;
@@ -2194,9 +2167,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       CONTACT
-       ===================================================== */
+    /* CONTACT */
 
     .contact-card {
         padding: 55px 22px;
@@ -2224,9 +2195,7 @@ body::before {
     }
 
 
-    /* =====================================================
-       FOOTER
-       ===================================================== */
+    /* FOOTER */
 
     .footer-container {
         flex-direction: column;
@@ -2239,7 +2208,6 @@ body::before {
     .footer-brand {
         justify-content: center;
     }
-
 }
 
 
@@ -2264,7 +2232,6 @@ body::before {
     .floating-card {
         display: none;
     }
-
 }
 
 
@@ -2287,5 +2254,4 @@ body::before {
 
         transition-duration: 0.01ms !important;
     }
-
 }
